@@ -1,0 +1,24 @@
+.terms{
+    background: #79787873;
+    width: 60%;
+    margin: auto;
+    padding: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.terms #h1{
+    color: #000;
+}
+
+.terms h2{
+   text-align: center;
+   font-size: xx-large;
+}
+
+.dark-mode .terms{
+    background:#4b4b4bfd;;
+    width: 60%;
+    margin: auto;
+    padding: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

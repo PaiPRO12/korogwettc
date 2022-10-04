@@ -1,0 +1,948 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: black;
+  }
+
+  .dark-mode {
+    background-color: rgb(49, 49, 49);
+    color: rgb(153, 153, 153);
+  }
+
+  .dark-mode label, q{
+      color: #000;
+  }
+
+
+  #more{
+      display: none;
+  }
+
+  .dark{
+    height: auto;
+    width: auto;
+    background: #acacac;
+    text-align: center;
+    border-radius: 10px;
+    padding-inline: 10px;
+    color: #000;
+    text-decoration: none;
+    border: none;
+    display: inline;
+    font-size: 0.8em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: all ease-in 0.5s;
+  }
+
+  .dark:hover{
+    background-color: #fdfdfd;
+    text-align: center;
+    border-radius: 10px;
+    padding-inline:10px;
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    font-size: 0.82em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .light{
+    height: auto;
+    width: auto;
+    background: #696969;
+    text-align: center;
+    border-radius: 10px;
+    padding-inline: 10px;
+    color: #000;
+    text-decoration: none;
+    border: none;
+    display: inline;
+    font-size: 0.8em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: all ease-in 0.5s;
+  }
+
+  .light:hover{
+    background-color: #383838;
+    text-align: center;
+    border-radius: 10px;
+    padding-inline:10px;
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    font-size: 0.82em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  /*here goes css for a pre loader*/
+ 
+
+  .kotc{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.7em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .nav{
+    height: auto;
+    width: fill;
+    background: #19A80F;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-mobile{
+    display: none;
+    height: auto;
+    width: fill;
+    background: #19A80F;
+    justify-content: space-between;
+}
+
+.nav-img-moe, img{
+    height: 50px;
+    width: 50px;
+    float: left;
+
+}
+
+.nav-text-label{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.nav-img-logo, img{
+    height: 180px;
+    width: 180px;
+    float: right;
+    padding-right: 20px;
+}
+
+.nav-text-label a{
+    text-decoration: none;
+    height: auto;
+    width: auto;
+    background: #13940a;
+    text-align: center;
+    border-radius: 10px;
+    padding-inline: 10px;
+    color: #000;
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    font-size: 0.8em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: all ease-in 0.5s;
+}
+
+.nav-text-label li{
+    height: auto;
+    width: auto;
+    background: #13940a;
+    text-align: center;
+    border-radius: 10px;
+    padding-inline: 10px;
+    color: #000;
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    font-size: 0.8em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: all ease-in 0.5s;
+}
+
+.nav-text-label a:hover{
+    color: rgb(90, 255, 68);
+    text-align: center;
+    border-radius: 10px;
+    padding-inline:10px;
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    font-size: 0.85em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+
+
+
+/*here goes our center section*/
+
+.center-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-section{
+    margin-right: 2%;
+    width: 69%;
+}
+
+.right-section{
+    margin-left: 2%;
+    width: 29%;
+}
+
+
+
+.content, img{
+    position: relative;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: #19A80F; /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+  }
+
+.second-section-container{
+    display: flex;
+    padding: 20px;
+ }
+
+ .second-section-container p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 350;
+ }
+
+ .second-section-container h1{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 700;
+ }
+
+.background{
+    padding-right: 50px;
+}
+
+.administration{
+    padding-right: 50px;
+}
+
+#mr-lorem-img{
+    float: left;
+    height: auto;
+    width: 150px;
+    border-radius: 20px;
+    border: transparent;
+}
+
+.location{
+    width: auto;
+    height: 500px;
+    background: rgb(17, 49, 10);
+    text-align: center;
+    margin-top: 0;
+    position: static;
+}
+
+
+/*here also goes our corses offered*/
+.courses{
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.contentt {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: auto;
+    width: fit-content;
+    display: block;
+    margin-left: 0%;
+    font-size: large;
+}
+
+.contentt p{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contentt li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 20%;
+
+}
+
+
+
+
+/*her is our third p[art of our web*/
+
+.second-section-container #read-more{
+    background-color: #13940a;
+    color:#fff;
+    padding: 10px 70px 10px 10px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition: all ease-in-out .4s;
+}
+
+.second-section-container #read-more:hover{
+    color: #13940a;
+    background-color: transparent;
+    border: 2px solid #13940a;
+    padding: 10px 80px 10px 10px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+
+/* contact section styling */
+.contact{
+    margin: 10px;
+    width: fit-content;
+}
+
+.contact .contact-content .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.contact .contact-content .left p{
+    text-align: justify;
+}
+.contact .contact-content .left .icons{
+    margin: 10px 0;
+}
+.contact .contact-content .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.contact .contact-content .row .info{
+    margin-left: 30px;
+}
+.contact .contact-content .row i{
+    font-size: 25px;
+    color: rgb(30, 182, 0);
+}
+.contact .contact-content .info .head{
+    font-weight: 500;
+}
+.contact .contact-content .info .sub-title{
+    color: #6b6b6b;
+}
+.contact .right form .fields{
+    display: flex;
+}
+.contact .right form .field,
+.contact .right form .fields .field{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.contact .right form .textarea{
+    height: 80px;
+    width: 100%;
+}
+.contact .right form .name{
+    margin-right: 10px;
+}
+.contact .right form .field input,
+.contact .right form .textarea textarea{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+.contact .right form .field input:focus,
+.contact .right form .textarea textarea:focus{
+    border-color: rgb(30, 182, 0);
+}
+.contact .right form .textarea textarea{
+  padding-top: 10px;
+  resize: none;
+  background: transparent;
+}
+.contact .right form .button-area{
+  display: flex;
+  align-items: center;
+}
+.right form .button-area button{
+  color: #fff;
+  display: block;
+  width: 160px!important;
+  height: 45px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  background: rgb(30, 182, 0);
+  border: 2px solid rgb(30, 182, 0);
+  transition: all 0.3s ease;
+}
+.right form .button-area button:hover{
+  color: rgb(30, 182, 0);
+  background: transparent;
+  width: 190px!important;
+  height: 45px;
+}
+
+h2{
+    color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3em;
+}
+
+.text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: auto;
+}
+
+.text p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: auto;
+}
+
+.icons{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dark-mode input, textarea{
+    background: transparent;
+}
+
+/* footer section styling */
+
+.fooot {
+    text-decoration: none;
+    text-align: center;
+    background: #111;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px ;
+    margin-top: 10px;
+    height: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fooot a {
+    text-decoration: none;
+    text-align: center;
+    background: #111;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px ;
+    margin-top: 10px;
+    height: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fooot a:hover {
+    text-decoration: lawngreen;
+    color: #13940a;
+
+}
+
+
+
+.fooot p a {
+    color: #13940a;
+    background: transparent;
+    transition: all ease-in-out .5s;
+}
+
+.fooot p a:hover {
+    color: #f33494;
+    background: transparent;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+/*Here comese our responsiveness of our web page in small displays*/
+/*Here comese our responsiveness of our web page in small displays*/
+/*Here comese our responsiveness of our web page in small displays*/
+/*Here comese our responsiveness of our web page in small displays*/
+/*Here comese our responsiveness of our web page in small displays*/
+/*Here comese our responsiveness of our web page in small displays*/
+
+@media screen and (min-width: 150px) and (max-width: 1000px) {
+   /*here goes css for a pre loader*/
+ 
+   
+   
+    #nav{
+        display: none;
+        height: auto;
+        width: fill;
+        background: #19A80F;
+        word-wrap: normal;
+    }
+
+
+    .nav-mobile{
+        display: flex;
+        height: auto;
+        width: fill;
+        background: #19A80F;
+    }
+
+    .nav-img-moe-mobile, img{
+        height: 100px;
+        width: 50px;
+        float: left;
+    }
+
+    .nav-text-label-mobile{
+        text-align: center;
+        font-size: 2em;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+    #nav-img-logo-mobile {
+        height: 70px;
+        width: auto;
+        float: right;
+        padding-right: 0px;
+    }
+
+    .kotc-mobile{
+        font-size: xx-large;
+    }
+
+    .nav-text-label-mobile a{
+        text-decoration: none;
+        height: auto;
+        width: auto;
+        background: #13940a;
+        text-align: center;
+        border-radius: 10px;
+        padding-inline: 10px;
+        color: #000;
+        text-decoration: none;
+        list-style: none;
+        display: inline;
+        font-size: 0.8em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        transition: all ease-in 0.5s;
+    }
+
+    .nav-text-label-mobile li{
+        height: auto;
+        width: auto;
+        background: #13940a;
+        text-align: center;
+        border-radius: 10px;
+        padding-inline: 10px;
+        color: #000;
+        text-decoration: none;
+        list-style: none;
+        display: inline;
+
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        transition: all ease-in 0.5s;
+    }
+
+    .nav-text-label-mobile a:hover{
+        color: rgb(90, 255, 68);
+        text-align: center;
+        border-radius: 10px;
+        padding-inline:10px;
+        text-decoration: none;
+        list-style: none;
+        display: inline;
+        font-size: 0.85em;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+
+    #mobile-link, #myBt{
+        height: 50px;
+        width: auto;
+        background: #13940a;
+        text-align: center;
+        border-radius: 10px;
+        padding-inline: 10px;
+        color: #000;
+        text-decoration: none;
+        list-style: none;
+        display: inline;
+        font-size: medium;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        transition: all ease-in 0.5s;
+    }
+
+    .center-section{
+        display: block;
+        justify-content: center;
+    }
+
+    .left-section{
+        margin-right: 1%;
+        width: 99%;
+    }
+
+    .right-section{
+        margin-left: 1%;
+        width: 99%;
+    }
+
+
+
+    .slideshow-container {
+        width: 100%;
+        position: relative;
+        margin: auto;
+
+        display: block;
+
+      }
+
+      .slideshow-container img{
+          width: 100%;
+          height: auto;
+      }
+
+      /* Hide the images by default */
+      .mySlides {
+        display: none;
+      }
+
+      /* Fading animation */
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 2s;
+        animation-name: fade;
+        animation-duration: 2s;
+      }
+
+      @-webkit-keyframes fade {
+        from {opacity: .2}
+        to {opacity: 1}
+      }
+
+      @keyframes fade {
+        from {opacity: .2}
+        to {opacity: 1}
+      }
+
+    .content {
+        bottom: 0;
+        background: rgb(0, 0, 0); /* Fallback color */
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+        color: #f1f1f1;
+        width: inherit;
+      }
+
+    .second-section-container{
+        display: block;
+        padding: 0px;
+     }
+
+     .second-section-container p{
+         font-size: small;
+     }
+
+    .mr-lorem img{
+        float: left;
+        height: 100px;
+        width: auto;
+        border-radius: 10px;
+    }
+
+    .courses{
+        display: block;
+    }
+
+    .location{
+        width: 90%;
+        height: 500px;
+        position: relative;
+        background: rgb(17, 49, 10);
+        text-align: center;
+        margin-top: 0;
+    }
+
+    /*HERE GOES OUR GOOGLE MAPS STYLING*/
+
+
+
+
+
+    /* contact section styling */
+    .contact{
+        margin: 10px;
+        width: fit-content;
+        display: block;
+    }
+
+    .contact .contact-content .text{
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .contact .contact-content .left p{
+        text-align: justify;
+    }
+    .contact .contact-content .left .icons{
+        margin: 10px 0;
+    }
+    .contact .contact-content .row{
+        display: flex;
+        height: 65px;
+        align-items: center;
+    }
+    .contact .contact-content .row .info{
+        margin-left: 30px;
+    }
+    .contact .contact-content .row i{
+        font-size: 25px;
+        color: rgb(30, 182, 0);
+    }
+    .contact .contact-content .info .head{
+        font-weight: 500;
+    }
+    .contact .contact-content .info .sub-title{
+        color: #333;
+    }
+    .contact .right form .fields{
+        display: flex;
+    }
+    .contact .right form .field,
+    .contact .right form .fields .field{
+        height: 45px;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .contact .right form .textarea{
+        height: 80px;
+        width: 100%;
+    }
+    .contact .right form .name{
+        margin-right: 10px;
+    }
+    .contact .right form .field input,
+    .contact .right form .textarea textarea{
+        height: 100%;
+        width: 100%;
+        border: 1px solid lightgrey;
+        border-radius: 6px;
+        outline: none;
+        padding: 0 15px;
+        font-size: 17px;
+        font-family: 'Poppins', sans-serif;
+        transition: all 0.3s ease;
+    }
+    .contact .right form .field input:focus,
+    .contact .right form .textarea textarea:focus{
+        border-color: rgb(30, 182, 0);
+    }
+    .contact .right form .textarea textarea{
+      padding-top: 10px;
+      resize: none;
+      background: transparent;
+    }
+    .contact .right form .button-area{
+      display: flex;
+      align-items: center;
+    }
+    .right form .button-area button{
+      color: #fff;
+      display: block;
+      width: 160px!important;
+      height: 45px;
+      outline: none;
+      font-size: 18px;
+      font-weight: 500;
+      border-radius: 6px;
+      cursor: pointer;
+      flex-wrap: nowrap;
+      background: rgb(30, 182, 0);
+      border: 2px solid rgb(30, 182, 0);
+      transition: all 0.3s ease;
+    }
+    .right form .button-area button:hover{
+      color: rgb(30, 182, 0);
+      background: none;
+      width: 190px!important;
+      height: 45px;
+    }
+
+    h2{
+        color: green;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 3em;
+    }
+
+    .text{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: auto;
+    }
+
+    .text p{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: auto;
+    }
+
+    .icons{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .dark-mode input, textarea{
+        background: #000;
+    }
+
+
+  /* footer section styling */
+
+.fooot {
+    text-decoration: none;
+    text-align: center;
+    background: #111;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px ;
+    margin-top: 10px;
+    height: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fooot a {
+    text-decoration: none;
+    text-align: center;
+    background: transparent;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px ;
+    margin-top: 10px;
+    height: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fooot a:hover {
+    text-decoration: lawngreen;
+    color: #13940a;
+
+}
+
+.fooot p a {
+    color: #13940a;
+    background: transparent;
+    transition: all ease-in-out .5s;
+}
+
+.fooot p a:hover {
+    color: #f33494;
+    background: transparent;
+    font-weight: bold;
+}
+
+#privacy{
+    background: #79787873;
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#terms{
+    background: #79787873;
+    width: 100%;
+    margin: auto;
+    padding: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.privacy #h1{
+    color: #000;
+}
+
+.privacy h2{
+   text-align: center;
+   font-size: xx-large;
+}
+.dark-mode .privacy{
+    background: #4b4b4bfd;
+    width: 60%;
+    margin: auto;
+    padding: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+}
+
+/*here goes css for a pre loader*/
+.loader_bg{
+    position: fixed;
+    z-index: 999999;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+}
+.loader{
+    border: 0 soild transparent;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: calc(50vh - 75px);
+    left: calc(55vw - 75px);
+}
+.loader:before, .loader:after{
+    content: '';
+    border: .5em solid #36ff50;
+    border-radius: 50%;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: loader .1s linear infinite;
+    opacity: 0;
+}
+.loader:before{
+    animation-delay: .5s;
+}
+@keyframes loader{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 0;
+    }
+}

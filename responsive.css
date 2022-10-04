@@ -1,0 +1,49 @@
+@media screen and (min-width: 150px) and (max-width: 1000px){
+      /* footer section styling */
+
+.fooot {
+    text-decoration: none;
+    text-align: center;
+    background: #111;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px ;
+    margin-top: 10px;
+    height: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fooot a {
+    text-decoration: none;
+    text-align: center;
+    background: transparent;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px ;
+    margin-top: 10px;
+    height: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fooot a:hover {
+    text-decoration: lawngreen;
+    color: #13940a;
+    
+}
+
+.fooot p a {
+    color: #13940a; 
+    background: transparent;
+    transition: all ease-in-out .5s;
+}
+
+.fooot p a:hover {
+    color: #f33494; 
+    background: transparent;
+    font-weight: bold;
+}
+}

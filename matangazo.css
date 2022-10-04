@@ -1,0 +1,118 @@
+.matangazo{
+    background: #585858;
+    border-radius: 20px;
+    padding:20px 10px 20px 10px;
+    height: auto;
+}
+
+.matangazo li{
+    list-style: none;
+}
+
+.head-announcements{
+    text-align:center;
+    font-size: 2em;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.dark-mode .head-announcements{
+    text-align:center;
+    font-size: 2em;
+    color: #000;
+}
+
+.date{
+    background: #000;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+    color: #ffff;
+    margin-right: 10px;
+    float: left;
+}
+
+.dark-mode .date{
+    background: #000;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+    color: #ffff;
+    margin-right: 10px;
+    float: left;
+}
+
+.dark-mode .announce{
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(45, 219, 2);
+    margin-right: 10px;
+}
+
+.announce{
+    border-radius: 10px;
+    padding: 10px;
+    
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media screen and (min-width: 150px) and (max-width: 1000px) {
+    .matangazo{
+        background: #585858;
+        border-radius: 20px;
+        padding:20px 10px 20px 10px;
+        height: auto;
+    }
+    
+    .matangazo li{
+        list-style: none;
+    }
+    
+    .head-announcements{
+        text-align:center;
+        font-size: 2em;
+        color: #fff;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .dark-mode .head-announcements{
+        text-align:center;
+        font-size: 1em;
+        color: #000;
+    }
+    
+    .date{
+        background: #000;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding: 10px;
+        color: #ffff;
+        margin-right: 10px;
+    }
+    
+    .dark-mode .date{
+        background: #000;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        padding: 10px;
+        color: #ffff;
+        margin-right: 10px;
+        float: left;
+    }
+    
+    .dark-mode .announce{
+        border-radius: 10px;
+        padding: 10px;
+        color: rgb(45, 219, 2);
+        margin-right: 10px;
+    }
+    
+    .announce{
+        border-radius: 10px;
+        padding: 10px;
+        
+        font-size: .7em;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}

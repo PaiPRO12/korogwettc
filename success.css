@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(101, 247, 65);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 10%;
+}
+
+.congrats{
+    padding: 0%;
+}
+

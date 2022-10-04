@@ -1,0 +1,49 @@
+.privacy{
+    background: #79787873;
+    width: 60%;
+    margin: auto;
+    padding: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.privacy #h1{
+    color: #000;
+}
+
+.privacy h2{
+   text-align: center;
+   font-size: xx-large;
+}
+.dark-mode .privacy{
+    background: #4b4b4bfd;
+    width: 60%;
+    margin: auto;
+    padding: 2%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media screen and (min-width: 150px) and (max-width: 1000px){
+    .privacy{
+        background: #79787873;
+        width: fill;
+        
+        padding: 2%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .privacy #h1{
+        color: #000;
+    }
+    
+    .privacy h2{
+       text-align: center;
+       font-size: xx-large;
+    }
+    .dark-mode .privacy{
+        background: #4b4b4bfd;
+        width: 60%;
+        margin: auto;
+        padding: 2%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
